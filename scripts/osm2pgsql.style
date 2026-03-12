@@ -1,0 +1,30 @@
+# osm2pgsql 样式文件
+# 定义哪些 OSM 标签需要导入到数据库
+
+# 通用节点
+node,place
+node,population
+
+# 铁路相关
+node,railway
+node,station
+node,halt
+node,stop
+node,tram_stop
+
+# 铁路线
+way,railway
+way,service
+
+# 铁路站
+way,railway
+
+# 其他有用的标签
+way,name
+way,operator
+way,ref
+way,network
+
+# 忽略其他
+node,*
+way,*
